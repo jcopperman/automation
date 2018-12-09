@@ -4,11 +4,24 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace AutomationAssessment
 {
     [TestClass]
-    public class UnitTest1
+    public class DogCeoApiTests 
     {
         [TestMethod]
-        public void TestMethod1()
+        public void VerifyStatusCodeIs200ForListAllDogBreeds()
         {
+            
+        }
+
+        [TestMethod]
+        public void VerifyBreedQueryIsInAllDogBreeds()
+        {
+
+        }
+
+        [TestMethod]
+        public void VerifyQueryIsInSubBreeds()
+        {
+
         }
     }
 }
